@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color:white;
+	font-size: 	3em;
+	margin-bottom: 	200px;
+}
+
+.container{
+	background-image: url("header.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: 	wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.buttonbox{
+	border-top: 4px solid orange;
+	padding-top: 25px;
+	margin-bottom: 	30px;
+	width: 50px;
+}
+
+.btn-warning {
+	height: 40px;
+	width: 100px;
+	border:2px solid white;
+	transition: all 1s;
+	border-radius: 	20px;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.btn-warning:hover {
+	transform: 	scale(1.5);	
+	border:2px solid red;
+}
